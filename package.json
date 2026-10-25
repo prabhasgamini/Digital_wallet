@@ -2,7 +2,7 @@
   "name": "digital-wallet-demo",
   "version": "1.0.0",
   "description": "Secure Digital Wallet REST API",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "node server.js"
   },
