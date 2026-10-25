@@ -13,4 +13,8 @@
     "prisma": "^5.14.0",
     "@prisma/client": "^5.14.0"
   }
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
 }
