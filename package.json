@@ -1,13 +1,16 @@
 {
   "name": "digital-wallet-demo",
   "version": "1.0.0",
-  "description": "Secure Digital Wallet REST API with Auth, Encryption & Concurrency Control",
-  "main": "src/server.js",
-  "type": "module",
+  "description": "Secure Digital Wallet REST API",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "seed": "node src/seed.js",
-    "test:race": "node test-race.js"
+    "start": "node index.js"
   },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.14.0",
+    "@prisma/client": "^5.14.0"
+  }
 }
-```[cite: 4]
