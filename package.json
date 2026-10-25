@@ -9,8 +9,5 @@
     "seed": "node src/seed.js",
     "test:race": "node test-race.js"
   },
-  "devDependencies": {
-    "prisma": "^5.14.0"
-  }
 }
 ```[cite: 4]
